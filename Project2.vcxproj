@@ -134,6 +134,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Project1\exitchoice.cpp" />
+    <ClCompile Include="decrement.cpp" />
+    <ClCompile Include="increment.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="source.cpp" />
     <ClCompile Include="add.cpp" />

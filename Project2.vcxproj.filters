@@ -36,6 +36,12 @@
     <ClCompile Include="remainder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="increment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decrement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linker.h">

@@ -6,3 +6,5 @@ void sub(double round);
 void multiply(double round);
 void divide(double round);
 void remain(int round);
+void increment(double round);
+void decrement(double round);

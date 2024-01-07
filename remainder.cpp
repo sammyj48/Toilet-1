@@ -1,6 +1,5 @@
 #include <iostream>
 #include "linker.h"
-#include "Var.h"
 using namespace std;
 
 
