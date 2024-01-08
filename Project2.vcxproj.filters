@@ -42,6 +42,9 @@
     <ClCompile Include="decrement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="unaryAdd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="linker.h">

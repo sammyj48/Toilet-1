@@ -142,6 +142,7 @@
     <ClCompile Include="divide.cpp" />
     <ClCompile Include="remainder.cpp" />
     <ClCompile Include="subtract.cpp" />
+    <ClCompile Include="unaryAdd.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Var.h" />

@@ -8,3 +8,4 @@ void divide(double round);
 void remain(int round);
 void increment(double round);
 void decrement(double round);
+void unaryAdd(double round);
