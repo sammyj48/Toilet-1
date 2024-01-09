@@ -140,7 +140,7 @@
     <ClCompile Include="source.cpp" />
     <ClCompile Include="add.cpp" />
     <ClCompile Include="divide.cpp" />
-    <ClCompile Include="remainder.cpp" />
+    <ClCompile Include="mod.cpp" />
     <ClCompile Include="subtract.cpp" />
     <ClCompile Include="unaryMinus.cpp" />
   </ItemGroup>

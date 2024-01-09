@@ -33,7 +33,7 @@
     <ClCompile Include="divide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="remainder.cpp">
+    <ClCompile Include="mod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="increment.cpp">
