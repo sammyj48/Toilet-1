@@ -9,3 +9,4 @@ void remain(int round);
 void increment(double round);
 void decrement(double round);
 void unaryAdd(double round);
+void roundMode(double round2);

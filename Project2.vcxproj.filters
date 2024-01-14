@@ -30,7 +30,7 @@
     <ClCompile Include="divide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mod.cpp">
+    <ClCompile Include="remainder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="increment.cpp">
@@ -43,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="exitchoice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="round.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

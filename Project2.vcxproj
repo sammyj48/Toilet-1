@@ -137,10 +137,11 @@
     <ClCompile Include="exitchoice.cpp" />
     <ClCompile Include="increment.cpp" />
     <ClCompile Include="multiply.cpp" />
+    <ClCompile Include="round.cpp" />
     <ClCompile Include="source.cpp" />
     <ClCompile Include="add.cpp" />
     <ClCompile Include="divide.cpp" />
-    <ClCompile Include="mod.cpp" />
+    <ClCompile Include="remainder.cpp" />
     <ClCompile Include="subtract.cpp" />
     <ClCompile Include="unaryMinus.cpp" />
   </ItemGroup>
