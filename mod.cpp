@@ -8,7 +8,7 @@ void remain(int round){
 		int num1, num2;
 		cout << "Base number: ";
 		cin >> num1;
-		cout << "Mod: ";
+		cout << "Divided by: ";
 		cin >> num2;
 		double sum = num1 % num2;
 		cout << "Result: " << sum;
@@ -16,7 +16,7 @@ void remain(int round){
 	}
 	else if (round != NULL) {
 		int num1;
-		cout << "Divided by: ";
+		cout << "Number to divide by: ";
 		cin >> num1;
 		double sum = round % num1;
 		cout << "Result: " << sum;
