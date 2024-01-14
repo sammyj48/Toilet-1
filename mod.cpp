@@ -6,7 +6,7 @@ using namespace std;
 void remain(int round){
 	if (round == NULL) {
 		int num1, num2;
-		cout << "Number to mod: ";
+		cout << "Base number: ";
 		cin >> num1;
 		cout << "Mod: ";
 		cin >> num2;
@@ -16,7 +16,7 @@ void remain(int round){
 	}
 	else if (round != NULL) {
 		int num1;
-		cout << "Mod: ";
+		cout << "Divided by: ";
 		cin >> num1;
 		double sum = round % num1;
 		cout << "Result: " << sum;
