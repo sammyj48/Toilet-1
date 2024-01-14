@@ -13,6 +13,7 @@ void remain(int round){
 		double sum = num1 % num2;
 		cout << "Result: " << sum;
 		exitchoice(sum);
+
 	}
 	else if (round != NULL) {
 		int num1;
