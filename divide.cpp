@@ -12,16 +12,16 @@ void divide(double round) {
 		cin >> num1;
 		cout << "Please enter the divisor: ";
 		cin >> num2;
-		double sum = num1 / num2; cout << "And your result is ..... drum roll please.....: " << sum;
+		double sum = num1 / num2; cout << "Here is your result!: " << sum;
 		exitchoice(sum);
 
 	}
 	else if (round != NULL) {
 		double num1;
-		cout << "Please enter the divisor: ";
+		cout << "Please enter the dividend: ";
 		cin >> num1;
 		double sum = round / num1;
-		cout << "And your result is ..... drum roll please ......: " << sum;
+		cout << "This is your result!: " << sum;
 		exitchoice(sum);
 	}
 }
