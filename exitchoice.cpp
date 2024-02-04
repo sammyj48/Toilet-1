@@ -1,7 +1,7 @@
 #include <iostream>
 #include "linker.h"
-#include "../calculator 2/linker.h"
-#include "../calculator 2/Var.h"
+#include "linker.h"
+#include "Var.h"
 #include <string>
 
 using namespace std;
