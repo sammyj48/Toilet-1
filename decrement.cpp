@@ -6,15 +6,15 @@ using namespace std;
 void decrement(double round) {
 	if (round == NULL) {
 		double num;
-		cout << "Number to decrement: ";
+		cout << "Number to decrement (not excrement!!): ";
 		cin >> num;
 		double sum = num - 1;
-		cout << "Result: " << sum;
+		cout << "And the poopy result is .......: " << sum;
 		exitchoice(sum);
 	}
 	if (round != NULL) {
 		double num = round - 1;
-		cout << "Result: " << num;
+		cout << "And the poopy result is ........: " << num;
 		exitchoice(num);
 	}
 }

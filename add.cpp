@@ -5,21 +5,21 @@ using namespace std;
 int add(double round) {
 	if (round != NULL) {
 		double num2;
-		cout << "Type another number to add: ";
+		cout << "Please type a number to add on: ";
 		cin >> num2;
 		double sum = round + num2;
-		cout << "\nResult: " << sum;
+		cout << "\nAnd this is your result ...... drum roll please ......: " << sum;
 		exitchoice(sum);
 	}
 	if (round == NULL) {
 		double num1;
 		double num2;
-		cout << "Base number: ";
+		cout << "Please type the number of your dreams here: ";
 		cin >> num1;
-		cout << "\n\nType number to add on to that: ";
+		cout << "\n\nAnd now type a number to add on to the number of your dreams: ";
 		cin >> num2;
 		double sum = num1 + num2;
-		cout << "\n\nResult: " << sum;
+		cout << "\n\nAnd your dreamy result is ........ drum roll please ........: " << sum;
 		exitchoice(sum);
 
 	}
