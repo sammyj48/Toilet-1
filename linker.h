@@ -10,3 +10,5 @@ void increment(double round);
 void decrement(double round);
 void unaryAdd(double round);
 void roundMode(double round2);
+void roundCeil(double round2);
+void roundFlr(double round2);
