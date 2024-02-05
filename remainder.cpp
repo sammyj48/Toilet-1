@@ -6,12 +6,12 @@ using namespace std;
 void remain(int round){
 	if (round == NULL) {
 		int num1, num2;
-		cout << "Base number: ";
+		cout << "This one's more complicated.... Base number here please: ";
 		cin >> num1;
-		cout << "Divided by: ";
+		cout << "Now the number you want to divide it by: ";
 		cin >> num2;
 		double sum = num1 % num2;
-		cout << "Result: " << sum;
+		cout << "Now time to figure out what on earth the result means!!: " << sum;
 		exitchoice(sum);
 
 	}
@@ -20,7 +20,7 @@ void remain(int round){
 		cout << "Number to divide by: ";
 		cin >> num1;
 		double sum = round % num1;
-		cout << "Result: " << sum;
+		cout << "Now time to figure out what on earth the result means!!!!: " << sum;
 		exitchoice(sum);
 	}
 }
