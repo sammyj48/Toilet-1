@@ -12,3 +12,4 @@ void unaryAdd(double round);
 void roundMode(double round2);
 void roundCeil(double round2);
 void roundFlr(double round2);
+void divR(int round);

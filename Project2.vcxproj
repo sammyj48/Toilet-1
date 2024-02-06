@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="decrement.cpp" />
+    <ClCompile Include="div-r.cpp" />
     <ClCompile Include="exitchoice.cpp" />
     <ClCompile Include="increment.cpp" />
     <ClCompile Include="multiply.cpp" />
