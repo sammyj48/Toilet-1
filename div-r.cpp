@@ -14,7 +14,7 @@ void divR(int round) {
 		cout << "Result: " << sum;
 		Remainder = num1 % num2;
 		cout << "\n\nRemainder: " << Remainder;
-		exitchoice(sum);
+		multinumchoice("remainder", sum, Remainder);
 	}
 	if (round != NULL) {
 		cout << "Number to divide by: ";
@@ -23,6 +23,6 @@ void divR(int round) {
 		sum = round / num1;
 		cout << "Result: " << sum;
 		cout << "\n\nRemainder: " << Remainder;
-		exitchoice(sum);
+		multinumchoice("remainder", sum, Remainder);
 	}
 }
