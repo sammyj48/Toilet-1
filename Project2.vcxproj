@@ -139,6 +139,7 @@
     <ClCompile Include="increment.cpp" />
     <ClCompile Include="multinumchoice.cpp" />
     <ClCompile Include="multiply.cpp" />
+    <ClCompile Include="pow.cpp" />
     <ClCompile Include="round-ciel.cpp" />
     <ClCompile Include="round-flr.cpp" />
     <ClCompile Include="round.cpp" />
