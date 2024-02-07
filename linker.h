@@ -16,3 +16,4 @@ void roundFlr(double round2);
 void divR(int round);
 void setNumber(double round);
 void multinumchoice(string param1, double num1, double num2);
+void Pow(double round);

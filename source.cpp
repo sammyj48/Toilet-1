@@ -26,14 +26,15 @@ choose:
 	else if (mode == 12) divR(intTransfer);
 	else if (mode == 13) {
 		if (returnRound != NULL) setNumber(returnRound);
-	else {
-		cout << "This only works if you chose the A option while in the exit choice screen\n";
-		goto choose;
-	}
+		else {
+			cout << "This only works if you chose the A option while in the exit choice screen\n";
+			goto choose;
+		}
 	}
 	else if (mode == 14) {
 		cout << returnRound << endl; goto choose;
 	}
+	else if (mode == 15) Pow(returnRound);
 	else if (mode == 100) return 0;
 	else {
 		cout << "Invalid mode. Please choose again.\n"; goto choose;
