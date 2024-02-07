@@ -134,12 +134,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="decrement.cpp" />
+    <ClCompile Include="div-r.cpp" />
     <ClCompile Include="exitchoice.cpp" />
     <ClCompile Include="increment.cpp" />
+    <ClCompile Include="multinumchoice.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="round-ciel.cpp" />
     <ClCompile Include="round-flr.cpp" />
     <ClCompile Include="round.cpp" />
+    <ClCompile Include="set-number.cpp" />
     <ClCompile Include="source.cpp" />
     <ClCompile Include="add.cpp" />
     <ClCompile Include="divide.cpp" />
