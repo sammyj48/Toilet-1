@@ -32,7 +32,7 @@ choose:
 		}
 	}
 	else if (mode == 14) {
-		cout << returnRound << endl; goto choose;
+		cout << "Latest result is: " << returnRound << endl; goto choose;
 	}
 	else if (mode == 15) Pow(returnRound);
 	else if (mode == 100) return 0;
