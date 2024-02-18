@@ -11,4 +11,4 @@ By the way open it in visual studio.
 
 Please don't report unoptimised code to the issues page unless you have a fix for it.
 
-If you do have a fix, please fork the repo and once fixed, create a pull request.
+If you do have a fix, please fork the repository and once fixed, create a pull request.
