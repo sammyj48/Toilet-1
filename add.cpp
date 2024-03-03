@@ -3,7 +3,7 @@
 using namespace std;
 
 int add(double round) {
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double num2;
 		cout << "Type another number to add: ";
 		cin >> num2;
@@ -11,7 +11,7 @@ int add(double round) {
 		cout << "\nResult: " << sum;
 		exitchoice(sum);
 	}
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num1;
 		double num2;
 		cout << "Base number: ";

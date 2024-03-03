@@ -5,7 +5,7 @@ using namespace std;
 
 void divR(int round) {
 	int num1, num2, sum, Remainder;
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		cout << "Base number: "; 
 		cin >> num1;
 		cout << "Number to divide by: ";
@@ -16,7 +16,7 @@ void divR(int round) {
 		cout << "\n\nRemainder: " << Remainder;
 		multinumchoice("remainder", sum, Remainder);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		cout << "Number to divide by: ";
 		cin >> num1;
 		Remainder = round % num1;

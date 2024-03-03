@@ -4,7 +4,7 @@ using namespace std;
 
 
 void unaryAdd(double round) {
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num;
 		cout << "Negative Number to convert to positive or vice versa: ";
 		cin >> num;
@@ -12,7 +12,7 @@ void unaryAdd(double round) {
 		cout << "Result: " << num;
 		exitchoice(num);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double result = -round;
 		cout << "Result: " << result;
 		exitchoice(result);

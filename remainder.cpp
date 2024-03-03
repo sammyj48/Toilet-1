@@ -4,7 +4,7 @@ using namespace std;
 
 
 void remain(int round){
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		int num1, num2;
 		cout << "Base number: ";
 		cin >> num1;
@@ -15,7 +15,7 @@ void remain(int round){
 		exitchoice(sum);
 
 	}
-	else if (round != NULL) {
+	else if (CALC_IN_PROGRESS == true) {
 		int num1;
 		cout << "Number to divide by: ";
 		cin >> num1;

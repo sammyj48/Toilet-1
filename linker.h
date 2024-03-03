@@ -1,3 +1,4 @@
+extern bool CALC_IN_PROGRESS;
 void exitchoice(double round);
 int main();
 int add(double round);

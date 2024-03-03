@@ -4,7 +4,7 @@ using namespace std;
 
 
 void increment(double round) {
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num;
 		cout << "Number to increment: ";
 		cin >> num;
@@ -12,7 +12,7 @@ void increment(double round) {
 		cout << "Result: " << num;
 		exitchoice(round);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double num;
 		num = round + 1;
 		cout << "Result: " << num;

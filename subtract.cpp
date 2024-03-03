@@ -5,7 +5,7 @@ using namespace std;
 
 
 void sub(double round) {
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num1;
 		double num2;
 		cout << "Base number: ";
@@ -16,7 +16,7 @@ void sub(double round) {
 		cout << "Result: " << sum;
 		exitchoice(sum);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 
 		double num1;
 		cout << "Number to subtract: ";

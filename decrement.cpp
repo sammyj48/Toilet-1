@@ -4,7 +4,7 @@ using namespace std;
 
 
 void decrement(double round) {
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num;
 		cout << "Number to decrement: ";
 		cin >> num;
@@ -12,7 +12,7 @@ void decrement(double round) {
 		cout << "Result: " << sum;
 		exitchoice(sum);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double num = round - 1;
 		cout << "Result: " << num;
 		exitchoice(num);
