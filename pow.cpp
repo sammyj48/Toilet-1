@@ -5,7 +5,7 @@ using namespace std;
 
 
 void Pow(double round) {
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num1, num2, sum;
 		cout << "Base number: ";
 		cin >> num1;
@@ -15,7 +15,7 @@ void Pow(double round) {
 		cout << "Result: " << sum;
 		exitchoice(sum);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double num, sum;
 		cout << "Exponent: ";
 		cin >> num;

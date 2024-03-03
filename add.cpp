@@ -3,7 +3,7 @@
 using namespace std;
 
 int add(double round) {
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double num2;
 		cout << "Please type a number to add on: ";
 		cin >> num2;
@@ -11,7 +11,7 @@ int add(double round) {
 		cout << "\nAnd this is your result ...... drum roll please ......: " << sum;
 		exitchoice(sum);
 	}
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num1;
 		double num2;
 		cout << "Please type the number of your dreams here: ";

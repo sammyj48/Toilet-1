@@ -1,6 +1,7 @@
 #include <iostream>
 #include "linker.h"
 double returnRound;
+bool CALC_IN_PROGRESS = false;
 
 using namespace std;
 

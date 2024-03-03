@@ -11,12 +11,9 @@ void exitchoice(double round) {
 
 	cout << endl << "\n\n\nType C to have another go, A to do something to your\nlatest result or type anything else to get the hell outta here!!!!: ";
 	cin >> choice;
-	if (choice == "C") { returnRound = NULL; main(); }
-	else if (choice == "c") { returnRound = NULL;  main(); }
-	else if (choice == "c") { returnRound = NULL;  main(); }
+	if (choice == "C" || choice == "c") { returnRound = NULL; CALC_IN_PROGRESS = false; main(); }
 
-	else if (choice == "A") { returnReturnRound(round); }
-	else if (choice == "a") { returnReturnRound(round); }
+	else if (choice == "A" || choice == "a") { CALC_IN_PROGRESS = true; returnReturnRound(round); }
 
 
 }

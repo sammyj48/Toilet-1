@@ -4,7 +4,7 @@ using namespace std;
 
 
 void multiply(double round) {
-	if (round == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num1, num2;
 		cout << "Think of a number... any number... and type it right here!: ";
 		cin >> num1;
@@ -14,7 +14,7 @@ void multiply(double round) {
 		cout << "And your result is ....... ta daaaa! .......: " << sum;
 		exitchoice(sum);
 	}
-	if (round != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double num1;
 		cout << "\nNumber to multiply by: ";
 		cin >> num1;
