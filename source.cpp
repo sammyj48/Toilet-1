@@ -1,5 +1,11 @@
 #include <iostream>
 #include "linker.h"
+#pragma warning(disable : 4244) /*
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Stop compiler telling us not to convert
+from double to int as this is intentional
+
+*/ 
 double returnRound;
 bool CALC_IN_PROGRESS = false;
 
