@@ -26,9 +26,9 @@ choose:
 	else if (mode == 11) roundFlr(returnRound);
 	else if (mode == 12) divR(intTransfer);
 	else if (mode == 13) {
-		if (returnRound != NULL) setNumber(returnRound);
+		if (CALC_IN_PROGRESS) setNumber(returnRound);
 		else {
-			cout << "This only works if you chose the A option while in the exit choice screen\n";
+			cout << "This only works if you choose the A option while in the exit choice screen\n";
 			goto choose;
 		}
 	}
