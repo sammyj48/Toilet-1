@@ -5,7 +5,7 @@ using namespace std;
 
 
 void roundMode(double round2) {
-	if (round2 == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num;
 		cout << "Number to round: ";
 		cin >> num;
@@ -13,7 +13,7 @@ void roundMode(double round2) {
 		cout << "Result: " << sum;
 		exitchoice(sum);
 	}
-	else if (round2 != NULL) {
+	else if (CALC_IN_PROGRESS == true) {
 		double sum;
 		sum = round(round2);
 		cout << "Result: " << sum;
