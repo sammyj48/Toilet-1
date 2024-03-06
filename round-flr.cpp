@@ -5,7 +5,7 @@ using namespace std;
 
 
 void roundFlr(double round2) {
-	if (round2 == NULL) {
+	if (CALC_IN_PROGRESS == false) {
 		double num;
 		cout << "Type the number you want to round down: ";
 		cin >> num;
@@ -14,7 +14,7 @@ void roundFlr(double round2) {
 		exitchoice(sum);
 
 	}
-	if (round2 != NULL) {
+	if (CALC_IN_PROGRESS == true) {
 		double sum = floor(round2);
 		cout << "Result: " << sum;
 		exitchoice(sum);
